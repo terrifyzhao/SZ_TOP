@@ -18,7 +18,8 @@ def monitor(size, ID, keyword, brand, shop_id):
             get_shop_id(theme_id)
             get_number(theme_id, size, ID, brand, shop_id)
             evaluate(theme_id, ID, size, keyword)
-            return
+            break
+        time.sleep(5)
 
 
 def get_number(theme, size, ID, brand, shop_id):
