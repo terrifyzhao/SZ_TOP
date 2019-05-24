@@ -2,7 +2,7 @@
 
 使用方法：
 ```
-python jordan.py
+python top.py
 ```
 
 参数说明：
